@@ -100,7 +100,7 @@ namespace EU
       {
         if (a.Csatlakozas.Year == 2007)
         {
-          ketezerHet++;
+          ketezerHet++; 
         }
       }
       Console.WriteLine($"4. feladat: 2007-ben {ketezerHet} ország csatlakozott.");
@@ -108,7 +108,7 @@ namespace EU
 
     private static void HarmadikFeladat()
     {
-      Console.WriteLine($"3. feladat: EU tagállamainak száma: {adatok.Count} db");
+      Console.WriteLine($"3. feladat: EU tagállamainak száma: {adatok.Count} db");//Akérmi
     }
 
     private static void MasodikFeladat()
